@@ -1,9 +1,9 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:medlao/config/dependency.dart';
+import 'package:medlao/l10n/l10n.dart';
 
 import 'app.dart';
-import 'feature/blood_stock/data/data_source/blood_stock_local_data_source.dart';
 
 void main() async {
   await dependency();
